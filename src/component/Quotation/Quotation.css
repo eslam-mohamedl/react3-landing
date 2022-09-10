@@ -1,0 +1,72 @@
+.Quotation{
+margin-bottom: 130px;
+}
+
+.Quotation  .row.one .two{
+     background-image: url(../../assets/images/banner/quotation_bg.png);
+     height: 600px;
+     background-size: cover;
+     margin-left: -300;
+     z-index: -1;
+}
+.Quotation .row.two{
+     background-color: rgba(255,255,255,0.9);
+     width: 100%;
+     margin: 0 auto;
+     margin-top: 50px;
+     width: 80%;
+     margin: -35% auto 0;
+     border: none;
+       min-height: 400px;
+       padding: 30px 0;
+}
+
+.Quotation .row.two .card-one{
+     padding: 40px;
+}
+.Quotation .row.two .card-one h1{
+     font-size: 43px;
+     margin-bottom: 20px;
+}
+.Quotation .row.two .card-one p{
+     font-size: 20px;
+     margin-bottom: 50px;
+}
+.Quotation .row.two .card-one button{
+     background: transparent;
+     border: 1px solid red;
+     width: 150px;
+     height: 50px;
+     font-size: 20px;
+     color: red;
+     border-radius: 6px;
+}
+.Quotation .row.two .card-two{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 40px;
+}
+.Quotation .row.two .card-two >  p{
+     padding-left: 110px;
+     font-size: 22px;
+}
+.Quotation .row.two .card-two div{
+  display: flex;
+}
+
+.Quotation .row.two .card-two div p{
+     line-height: 70px;
+     padding-left: 30px;
+     font-size: 35px;
+     color: red;
+     font-weight: bold;
+}
+.Quotation .row.two .card-two .image{
+     width: 35px;
+     height: 35px;
+     border: 1px solid #777;
+     padding: 20px;
+     border-radius: 50%;
+     color: red;
+}

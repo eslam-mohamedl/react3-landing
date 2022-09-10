@@ -1,0 +1,45 @@
+:root{
+    --main-color:#FF2424;
+    --heading-color:#303030;
+    --light-text:#828282;
+}
+.About{
+   padding: 100px 0;
+   background: white;
+}
+.About .row{
+    
+}
+.About .image{
+    
+}
+.About .image img{
+    
+}
+.About .row .two{
+    
+}
+.About .row .two h2{
+    font-size: 34px;
+    font-family: unset;
+    text-transform: uppercase;
+    color: var(--heading-color);
+}
+.About .row .two p{
+    padding: 30px 0;
+}
+.About .row .two  span{
+    display: flex;
+    color: var(--main-color) !important;
+}
+.About .row .two  span FontAwesomeIcon{
+    
+}
+.About .row .two  span p{
+    padding: 0;
+    margin-top: -4px;
+    margin-left: 10px;
+    color: var(--heading-color);
+}
+ 
+ 

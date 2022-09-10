@@ -1,0 +1,23 @@
+.Property{
+margin-bottom: 80px;
+}
+.Property .card{
+   display: flex;
+   justify-content: center;
+}
+
+.Property h2 span{
+  color: red;
+}
+.Property div img{
+
+}
+
+@media (max-width:568px) {
+    .Property h2{
+     padding: 70px;
+    }
+    .Property .row > div{
+        margin-bottom: 30px;
+    }
+}

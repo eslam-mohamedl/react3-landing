@@ -1,0 +1,73 @@
+
+.Lastest{
+    padding: 100px 0;
+}
+.Lastest .heading{
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 80px;
+}
+.Lastest .row > div{
+
+}
+.Lastest .row .image {
+  width: 100%;
+}
+.Lastest .row .image img {
+    width: 100%;
+
+}
+.Lastest  .box-container{
+        display: flex;
+  }
+  .Lastest  .box-container .card{
+    flex: 25% ;
+    height: 110px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background: red;
+    margin-top: 20px;
+    border-radius: 0;
+    margin-right: 20px;
+  }
+  .Lastest  .box-container .card h2{
+
+  }
+
+.Lastest .box-container .text {
+    flex: 70% ;
+    background-color: white;
+    z-index: 10;
+    margin-top: -37px;
+    
+    padding: 30px;
+
+  }
+  .Lastest  .box-container .text p{
+    text-transform: capitalize;
+    font-size: 18px;
+    margin: 0;
+  }
+
+  .Lastest  .box-container .text h2{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.Lastest  .box-container .text span{
+    
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+@media (max-width:550px) {
+    .container{
+      width: 100%;
+      margin: 0;
+      padding: 0;
+    }
+    
+}
